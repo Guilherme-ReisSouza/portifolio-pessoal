@@ -35,6 +35,14 @@
 </div>  
 
  ##
+ 
+  ## 🗂️ _Ferramentas_:
+  
+<div style="display: inline_block"><br>
+  <img align="center" alt="icon-HTML" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="icon-CSS" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+    
+ ##
 
  ## 📭 _Entrar em contato_:
  
