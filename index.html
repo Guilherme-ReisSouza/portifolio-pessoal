@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--=============== LINE ICONS ===============-->
+    <link rel="stylesheet" href="https://cdn.lineicons.com/3.0/lineicons.css">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- ======= EMAIL AUTOMATION ======= -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <title>Guilherme Reis Dev</title>
+
+    <!-- ICON SITE -->
+    <link rel="icon" id="favicon" href="assets/img/iconSite.png" type="image/x-icon">
+
+
+</head>
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <!-- nav -->
+        <nav class="nav container padd-15">
+            <!-- nav logo -->
+            <a href="#" class="nav-logo">
+                <h2>TTAMS</h2>
+            </a>
+            <!-- nav menu -->
+            <div class="nav-menu" id="nav-menu">
+                <!-- nav list -->
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#experience" class="nav-link">Experiência</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#pricing" class="nav-link">Planos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contato</a>
+                    </li>
+                </ul>
+                <!-- nav close -->
+                <div class="nav-close" id="nav-close">
+                    <i class="lni lni-close"></i>
+                </div>
+            </div>
+            <!-- nav btn -->
+            <div class="nav-btns">
+                <!-- theme change btn -->
+                <i class="lni lni-pallet change-theme" id="theme-button"></i>
+                <!-- toggle btn -->
+                <div class="nav-toggle" id="nav-toggle">
+                    <i class="lni lni-grid-alt"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main-content">
+        <!--=============== HOME ===============-->
+        <section class="home" id="home">
+            <div class="container">
+                <!-- intro -->
+                <div class="intro">
+                    <!-- avatar image -->
+                    <img src="assets/img/iconSite.png" width="100px" alt="Bolby">
+                    <!-- info -->
+                    <h1>Oi, Me chamo <a href="#" class="textmark"> Guilherme Reis </a> </h1>
+                    <span>E sou um <span class="info-text"> Dev Full-Stack </span></span>
+                    <!-- social icons -->
+                    <ul class="social-icons">
+                        <li><a href="https://www.instagram.com/ttams_insta/" target="_blank"><i class="lni lni-instagram-original socials"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/guilherme-reis-queiroz/" target="_blank"><i class="lni lni-linkedin-original socials"></i></a></li>
+                        <li><a href="https://github.com/Guilherme-ReisSouza" target="_blank"><i class="lni lni-github socials"></i></a></li>
+                        <li><a href="https://whatsa.me/5511930820738/?t=Ol%C3%A1!%20gostaria%20de%20conversar%20sobre%20o%20desenvolvimento%20de%20um%20projeto%20%F0%9F%98%89" target="_blank"><i class="lni lni-whatsapp socials"></i></a></li>
+                        <li><a href="https://freeclickstudio.netlify.app" target="_blank"><i class="lni lni-camera socials"></i></a></li>
+                    </ul>
+                    <!-- button -->
+                    <div>
+                        <a href="#contact" class="btn btn-default">Entre em CONTATO</a>
+                    </div>
+                    <!-- scroll down mouse wheel -->
+                    <div class="scroll-down">
+                        <a href="#about" class="mouse-wrapper">
+                            <span>Scroll Down</span>
+                            <span class="mouse">
+                                <span class="wheel"></span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=============== About ===============-->
+        <section class="about section" id="about">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">Sobre mim</h2>
+                <div class="row">
+                    <div class="about-img padd-15">
+                        <!-- avatar img -->
+                        <img src="assets/img/Avatars/ttams avatar.svg" alt="">
+                    </div>
+                    <div class="about-content padd-15">
+                        <div class="rounded">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <!-- about text -->
+                                    <p>🎓Estudante de Ciência da computação pela FEI. Aspirante a desenvolvedor Fullstack, tendo como especialidade o desenvolvimento web, Python e Java, adjunto com o desenvolvimento de aplicativos, automação de processos, ambos com ou sem banco de dados.</p>
+                                    <div>
+                                        <a href="assets/downloads/Guilherme Reis Resume.pdf" download="Guilherme Reis CV" class="btn btn-default">Download CV</a>
+                                    </div>
+                                </div>
+                                <div class="skills padd-15">
+                                    <div class="row">
+                                        <!-- skill item -->
+                                        <div class="skill-item">
+                                            <h4>Front-End</h4>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 95%; background: rgb(255,209,92);"></div>
+                                                <div class="skill-percent"> <a href="#" style="color: rgb(255,209,92)">(Avançado)</a> 95% </div>
+                                            </div>
+                                        </div>
+                                        <!-- skill item -->
+                                        <div class="skill-item">
+                                            <h4>Back-End</h4>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 50%; background: rgb(255,76,96);"></div>
+                                                <div class="skill-percent"><a href="#" style="color: rgb(255,76,96);">(Básico)</a> 50%</div>
+                                            </div>
+                                        </div>
+                                        <!-- skill item -->
+                                        <div class="skill-item">
+                                            <h4>UI/UX design</h4>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 75%; background: rgb(108,108,229);"></div>
+                                                <div class="skill-percent"><a href="#" style="color: rgb(108,108,229);">(Médio)</a> 75%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- fact item -->
+                    <div class="fact-item padd-15">
+                        <i class="lni lni-thumbs-up"></i>
+                        <div class="details">
+                            <h3>15</h3>
+                            <p>Projetos feitos</p>
+                        </div>
+                    </div>
+                    <!-- fact item -->
+                    <div class="fact-item padd-15">
+                        <i class="lni lni-layout"></i>
+                        <div class="details">
+                            <h3>150</h3>
+                            <p>Designs criados</p>
+                        </div>
+                    </div>
+                    <!-- fact item -->
+                    <div class="fact-item padd-15">
+                        <i class="lni lni-users"></i>
+                        <div class="details">
+                            <h3>135</h3>
+                            <p>Clientes satisfeitos</p>
+                        </div>
+                    </div>
+                    <!-- fact item -->
+                    <div class="fact-item padd-15">
+                        <i class="lni lni-cup"></i>
+                        <div class="details">
+                            <h3>3</h3>
+                            <p>premiações</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=============== Services ===============-->
+        <section class="services section">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">Serviços</h2>
+                <div class="row">
+                    <!-- service item -->
+                    <div class="service-item padd-15">
+                        <div class="service-item-inner" style="background: rgb(108,108,229);">
+                            <img src="assets/img/service-1.svg" alt="">
+                            <h3>UI/UX design</h3>
+                            <p>Desenvolvimento parcial ou completo do projeto, design, engenharia de software e Schemas.</p>
+                        </div>
+                    </div>
+                    <!-- service item -->
+                    <div class="service-item padd-15">
+                        <div class="service-item-inner" style="background: rgb(77, 230, 158);">
+                            <img src="assets/img/service-3.svg" alt="">
+                            <h3>Fotografia</h3>
+                            <p>Ensaio pessoal, clubes e banco de imagem próprio para projetos empresariais, design, entre outros propósitos</p>
+                        </div>
+                    </div>
+                    <!-- service item -->
+                    <div class="service-item padd-15">
+                        <div class="service-item-inner" style="background: rgb(255,76,96);">
+                            <img src="assets/img/service-2.svg" alt="">
+                            <h3>Desenvolvimento Web</h3>
+                            <p>Desenvolvimento de paginas web, sendo projetos com ou sem banco de dados, utilizando meios nativos ou aplicaçoes em react</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text padd-15">
+                    <p>Procurando por um projeto customizado? <a href="https://whatsa.me/5511930820738/?t=Ol%C3%A1!%20gostaria%20de%20conversar%20sobre%20o%20desenvolvimento%20de%20um%20projeto%20%F0%9F%98%89" target="_blank">CLIQUE AQUI</a>  e vamos fazer um orçamento! 👋</p>
+                </div>
+            </div>
+        </section>
+        <!--=============== Experience ===============-->
+        <section class="section" id="experience">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">Experiências</h2>
+                <div class="row">
+                    <!-- education -->
+                    <div class="education padd-15">
+                        <div class="row">
+                            <div class="timeline-box">
+                                <div class="timeline">
+                                    <!-- timeline item -->
+                                    <div class="timeline-item">
+                                        <i class="lni lni-graduation timeline-icon"></i>
+                                        <h3 class="timeline-date">
+                                            <i class="lni lni-calendar"></i> 2021 - 2025
+                                        </h3>
+                                        <h3 class="timeline-title">BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO</h3>
+                                        <p class="timeline-text">Centro Universitário FEI</p>
+                                    </div>
+                                     <!-- timeline item -->
+                                     <div class="timeline-item">
+                                        <i class="lni lni-graduation timeline-icon"></i>
+                                        <h3 class="timeline-date">
+                                            <i class="lni lni-calendar"></i> 2019 - 2020
+                                        </h3>
+                                        <h3 class="timeline-title">ENSINO MÉDIO COMPLETO</h3>
+                                        <p class="timeline-text">Colégio Ribeiro Maia</p>
+                                    </div>
+                                     <!-- timeline item -->
+                                     <div class="timeline-item">
+                                        <i class="lni lni-graduation timeline-icon"></i>
+                                        <h3 class="timeline-date">
+                                            <i class="lni lni-calendar"></i> 2014 - 2018
+                                        </h3>
+                                        <h3 class="timeline-title">ENSINO FUNDAMENTAL E MÉDIO</h3>
+                                        <p class="timeline-text">Escola Estadual Francisco Emygdio P. Neto (até o primeiro ano)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- experience -->
+                    <div class="experience padd-15">
+                        <div class="row">
+                            <div class="timeline-box">
+                                <div class="timeline">
+                                    <!-- timeline item -->
+                                    <div class="timeline-item">
+                                        <i class="lni lni-briefcase timeline-icon"></i>
+                                        <h3 class="timeline-date">
+                                            <i class="lni lni-calendar"></i> 2022 - 2023
+                                        </h3>
+                                        <h3 class="timeline-title">TOLEDO DO BRASIL</h3>
+                                        <p class="timeline-text">Estágio em Automação de projetos, testes de qualidade criação de soluções no ambiente Cloud</p>
+                                    </div>
+                                     <!-- timeline item -->
+                                     <div class="timeline-item">
+                                        <i class="lni lni-briefcase timeline-icon"></i>
+                                        <h3 class="timeline-date">
+                                            <i class="lni lni-calendar"></i> 2020 - atualmente
+                                        </h3>
+                                        <h3 class="timeline-title">FREELANCER NA AREA WEB</h3>
+                                        <p class="timeline-text">Criação de sites com ou sem banco de dados</p>
+                                    </div>
+                                     <!-- timeline item -->
+                                     <div class="timeline-item">
+                                        <i class="lni lni-briefcase timeline-icon"></i>
+                                        <h3 class="timeline-date">
+                                            <i class="lni lni-calendar"></i> 2020 - atualmente
+                                        </h3>
+                                        <h3 class="timeline-title">DESENVOLVIMENTO DE JOGOS GAME MAKER FULL-STACK </h3>
+                                        <p class="timeline-text">Desenvolvimento de jogos desktop</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=============== Pricing ===============-->
+        <section class="section pricing" id="pricing">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">Planos freelancer</h2>
+                <div class="row">
+
+
+                    <!-- prices -->
+                    <div class="prices">
+                        <div class="price-item">
+                            <img src="assets/img/price-1.svg" alt="">
+                            <h3 class="plan">Básico</h3>
+                            <p>Sites sem banco de dados responsivo, 4 paginas</p>
+                            <p>suporte para manutenção  a cada dois anos</p>
+                            <h3 class="price"><em class="textmark">4X de </em>R$ <a href="#pricing" class="textmark">750</a></h3>
+                            <a href="https://whatsa.me/5511930820738/?t=Ol%C3%A1!%20gostaria%20de%20conversar%20sobre%20o%20desenvolvimento%20de%20um%20projeto%20%F0%9F%98%89" target="_blank" class="btn btn-default">CONTRATAR</a>
+                        </div>
+                    </div>
+
+
+                     <!-- prices -->
+                    <div class="prices">
+                        <div class="price-item best grande">
+                            <span class="badge">Recomendado</span>
+                            <img src="assets/img/price-2.svg" alt="">
+                            <h3 class="plan">Premium</h3>
+                            <p>Projeto 100% personalizado, responsivo</p>
+                            <p>todos os suportes anteriores, a partir de:</p>
+                            <h3 class="price"><em class="textmark">6x de </em> R$<a href="#pricing" class="textmark">1168</a></h3>
+                            <a href="https://whatsa.me/5511930820738/?t=Ol%C3%A1!%20gostaria%20de%20conversar%20sobre%20o%20desenvolvimento%20de%20um%20projeto%20%F0%9F%98%89" target="_blank" class="btn btn-default">REALIZAR ORÇAMENTO</a>
+                        </div>
+                    </div>
+
+
+                     <!-- prices -->
+                    <div class="prices">
+                        <div class="price-item">
+                            <img src="assets/img/price-3.svg" alt="">
+                            <h3 class="plan">Médio</h3>
+                            <p>Sites com banco de dados, responsivo, até 8 paginas</p>
+                            <p>Suporte para apis de WhatsApp e email</p>
+                            <h3 class="price"><em class="textmark">6X de </em> R$<a href="#pricing" class="textmark">840</a></h3>
+                            <a href="https://whatsa.me/5511930820738/?t=Ol%C3%A1!%20gostaria%20de%20conversar%20sobre%20o%20desenvolvimento%20de%20um%20projeto%20%F0%9F%98%89" target="_blank" class="btn btn-default">CONTRATAR</a>
+                        </div>
+                    </div>
+
+
+                     <!-- prices -->
+                     <div class="prices">
+                        <div class="price-item best pequeno">
+                            <span class="badge">Recomendado</span>
+                            <img src="assets/img/price-2.svg" alt="">
+                            <h3 class="plan">Premium</h3>
+                            <p>Projeto 100% personalizado, responsivo</p>
+                            <p>todos os suportes anteriores, a partir de:</p>
+                            <h3 class="price"><em class="textmark">6x de </em>R$ <a href="#pricing" class="textmark">1168</a><span></span></h3>
+                            <a href="https://whatsa.me/5511930820738/?t=Ol%C3%A1!%20gostaria%20de%20conversar%20sobre%20o%20desenvolvimento%20de%20um%20projeto%20%F0%9F%98%89" target="_blank" class="btn btn-default">REALIZAR ORÇAMENTO</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        
+        <!--=============== Portfolio ===============-->
+        <section class="portfolio section" id="portfolio">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">Portfolio</h2>
+                <div class="row">
+                    <div class="portfolio-filter padd-15">
+                        <div class="portfolio-filter-inner">
+                            <button type="button" class="active" data-filter="all">Todos os Projetos</button>
+                            <button type="button" data-filter="sites">Sites</button>
+                            <button type="button" data-filter="backEnd">Aplicações Back-end</button>
+                            <button type="button" data-filter="Academic">Area Acadêmica</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <!-- portfolio item -->
+                    <div class="portfolio-item padd-15" data-category="backEnd">
+                        <div class="portfolio-item-inner">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="assets/img/8.svg" alt="">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Sites , React </span>
+                            <h3 class="portfolio-item-title">Clone da Netflix com Redux e firebaseAuth </h3>
+                            <span class="more-button"><a href="https://netflix-ttams.netlify.app" target="_blank"> &hellip; </a></span>
+                        </div>
+                    </div>
+
+                    <!-- portfolio item -->
+                    <div class="portfolio-item padd-15" data-category="backEnd">
+                        <div class="portfolio-item-inner">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="assets/img/7.svg" alt="">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Sites , React </span>
+                            <h3 class="portfolio-item-title">Clone do Spotify com React e Spotify API</h3>
+                            <span class="more-button"><a href="https://spotify-ttams.netlify.app" target="_blank"> &hellip; </a></span>
+                        </div>
+                    </div>
+
+                    <!-- portfolio item -->
+                    <div class="portfolio-item padd-15" data-category="backEnd">
+                        <div class="portfolio-item-inner">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="assets/img/6.svg" alt="">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Sites , React </span>
+                            <h3 class="portfolio-item-title">Clone do Youtube com redux e tailwind css  </h3>
+                            <span class="more-button"><a href="https://youtube-ttams.netlify.app" target="_blank"> &hellip; </a></span>
+                        </div>
+                    </div>
+
+
+                    <!-- portfolio item -->
+                    <div class="portfolio-item padd-15" data-category="backEnd">
+                        <div class="portfolio-item-inner">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="assets/img/5.svg" alt="">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Sites , React </span>
+                            <h3 class="portfolio-item-title">Pokedex com React, Redux e firebase </h3>
+                            <span class="more-button"><a href="https://pokedex-ttams.netlify.app" target="_blank"> &hellip; </a></span>
+                        </div>
+                    </div>
+
+                    <!-- portfolio item -->
+                    <div class="portfolio-item padd-15" data-category="sites">
+                        <div class="portfolio-item-inner">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="assets/img/1.svg" alt="">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Sites , design</span>
+                            <h3 class="portfolio-item-title">Portifolio de Fotografia</h3>
+                            <span class="more-button"><a href="https://freeclickstudio.netlify.app" target="_blank"> &hellip; </a></span>
+                        </div>
+                    </div>
+
+                     <!-- portfolio item -->
+                     <div class="portfolio-item padd-15" data-category="sites">
+                        <div class="portfolio-item-inner">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="assets/img/2.svg" alt="">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Sites , design</span>
+                            <h3 class="portfolio-item-title">E-commerce de eventos</h3>
+                            <span class="more-button"><a href="https://thunderbassfest.netlify.app/pages/" target="_blank"> &hellip; </a></span>
+                        </div>
+                    </div>
+
+                     <!-- portfolio item -->
+                     <div class="portfolio-item padd-15" data-category="sites">
+                        <div class="portfolio-item-inner">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="assets/img/3.svg" alt="">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Sites , design</span>
+                            <h3 class="portfolio-item-title">Plataforma de eventos esportivos (front-end)</h3>
+                            <span class="more-button"><a href="https://libertycup.com.br/index.html" target="_blank"> &hellip; </a></span>
+                        </div>
+                    </div>
+
+
+                    <!-- portfolio item -->
+                     <div class="portfolio-item padd-15" data-category="Academic">
+                        <div class="portfolio-item-inner">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="assets/img/4.svg" alt="">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Academico , Model. de Software</span>
+                            <h3 class="portfolio-item-title">ENG. e MODELAGEM DE SOFTWARE</h3>
+                            <span class="more-button"><a href="https://github.com/fabioschiavi/Jobber/wiki/🚪%E2%80%8A%E2%80%8A-Bem-vindo!-🚪%E2%80%8A" target="_blank"> &hellip; </a></span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--=============== Testimonial ===============-->
+        <section class="section">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">Reviews de clientes</h2>
+
+                <!-- testimonial wrapper -->
+                <div class="swiper testimonial-wrapper">
+                    <div class="swiper-wrapper">
+
+                        
+
+                        <!-- testimonial item -->
+                        <div class="testimonial-item swiper-slide">
+                            <div class="thumb">
+                                <img src="assets/img/Avatars/Male/7.svg" alt="">
+                            </div>
+                            <h3>João Victor</h3>
+                            <span class="subtitle">Data Operator e Dev. Python na Mercedes-Benz</span>
+                            <div class="comment">Trabalhar com o Guilherme é sinônimo de boas surpresas. Sempre inovando e por dentro de novas tecnologias.</div>
+                        </div>
+
+                        <!-- testimonial item -->
+                        <div class="testimonial-item swiper-slide">
+                            <div class="thumb">
+                                <img src="assets/img/Avatars/Male/11.svg" alt="">
+                            </div>
+                            <h3>Vinicius Nagatomo</h3>
+                            <span class="subtitle">Dev Typescript+nodejs no Cubo Itau</span>
+                            <div class="comment">O trabalho com o Guilherme é sempre mais leve, divertido e cheio de novas ideias. Tornando o ambiente perfeito para o desenvolvimento.</div>
+                        </div>
+
+                        <!-- testimonial item -->
+                        <div class="testimonial-item swiper-slide">
+                            <div class="thumb">
+                                <img src="assets/img/Avatars/Male/6.svg" alt="">
+                            </div>
+                            <h3>Fabio Schiavi Morpanini</h3>
+                            <span class="subtitle">Dev Salesforce Empiricus</span>
+                            <div class="comment">Trabalhar com o Guilherme e ter garantia de um projeto feito não só com maestria , mas também com a melhor estética cada vez mais inovador.</div>
+                        </div>
+
+                        <!-- testimonial item -->
+                        <div class="testimonial-item swiper-slide">
+                            <div class="thumb">
+                                <img src="assets/img/Avatars/Male/9.svg" alt="">
+                            </div>
+                            <h3>Luiz Henrique Silveira</h3>
+                            <span class="subtitle">Dev Java</span>
+                            <div class="comment">É sempre muito bom trabalhar com alguém versátil e que gosta de compartilhar e desenvolver ideias diferentes.</div>
+                        </div>
+
+                        <!-- testimonial item -->
+                        <div class="testimonial-item swiper-slide">
+                            <div class="thumb">
+                                <img src="assets/img/Avatars/Male/6.svg" alt="">
+                            </div>
+                            <h3>Gustavo Miranda</h3>
+                            <span class="subtitle">Dev. Python</span>
+                            <div class="comment">Gosta de aprender assuntos novos e se adapta facilmente a eles.</div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            <!--
+                <div class="text padd-15">
+                    <p>Já trabalhamos juntos? <a href="#">CLIQUE AQUI</a>  e conte sua experiência 👋</p>
+                </div>
+            -->
+
+            </div>
+        </section>
+
+
+
+
+        <!--=============== Blog ===============-->
+
+        <!--
+        <section class="section">
+            <div class="container">
+                <!-- section title --> 
+        <!--
+                <h2 class="section-title padd-15">Ultimos Posts do blog!</h2>
+                <div class="row">
+
+                    <!-- blog item -->
+        <!--
+                    <div class="blog-item padd-15">
+                        <div class="inner">
+                            <div class="thumb">
+                                <a href="#"><span class="category">Reviews</span></a>
+                                <a href="#"><img src="assets/img/1.svg" alt=""></a>
+                            </div>
+                            <div class="details">
+                                <h3 class="title"><a href="#">5 Best App Development Tool for Your Projects</a></h3>
+                                <ul class="meta">
+                                    <li>09 February, 2021</li>
+                                    <li>Bolby</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- blog item -->
+        <!--
+                    <div class="blog-item padd-15">
+                        <div class="inner">
+                            <div class="thumb">
+                                <a href="#"><span class="category">Tutorial</span></a>
+                                <a href="#"><img src="assets/img/2.svg" alt=""></a>
+                            </div>
+                            <div class="details">
+                                <h3 class="title"><a href="#">Common Misconceptions About Payment</a></h3>
+                                <ul class="meta">
+                                    <li>07 February, 2021</li>
+                                    <li>Bolby</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> 
+
+                    <!-- blog item -->
+        <!--
+                    <div class="blog-item padd-15">
+                        <div class="inner">
+                            <div class="thumb">
+                                <a href="#"><span class="category">Business</span></a>
+                                <a href="#"><img src="assets/img/1.svg" alt=""></a>
+                            </div>
+                            <div class="details">
+                                <h3 class="title"><a href="#">3 Things to know about startup business</a></h3>
+                                <ul class="meta">
+                                    <li>09 February, 2021</li>
+                                    <li>Bolby</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>
+                    -->
+
+
+
+
+
+
+        <!--=============== Contact ===============-->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">Entre em Contato Conosco</h2>
+                <div class="row">
+                    <!-- contact box -->
+                    <div class="contact-box padd-15">
+                        <div class="contact-data">
+                            <!-- contact information -->
+                            <div class="contact-information">
+                                <h3 class="contact-subtitle">Telefone para contato</h3>
+                                <span class="contact-description">
+                                    <i class="lni lni-phone contact-icon"></i>
+                                    +55(11)93082-0738
+                                </span>
+                            </div>
+                             <!-- contact information -->
+                             <div class="contact-information">
+                                <h3 class="contact-subtitle">Nos escreva um e-mail</h3>
+                                <span class="contact-description">
+                                    <i class="lni lni-user contact-icon"></i>
+                                    guilhermereisqcontato@gmail.com
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- contact form -->
+                    <form action="" class="contact-form padd-15">
+                        <div class="contact-inputs">
+                            <!-- contact content -->
+                            <div class="contact-content">
+                                <input type="email" class="contact-input" id="sendername">
+                                <label for="" class="contact-label">Nome</label>
+                                <span></span>
+                            </div>
+                            <!-- contact content -->
+                            <div class="contact-content">
+                                <input type="text" class="contact-input" id="subject">
+                                <label for="" class="contact-label">Assunto</label>
+                                <span></span>
+                            </div>
+                            <!-- contact content -->
+                            <div class="contact-content contact-area">
+                                <textarea name="" cols="30" rows="10" class="contact-input" id="message"></textarea>
+                                <label for="" class="contact-label">Mensagem</label>
+                                <span></span>
+                            </div>
+                        </div>
+                        <a class="btn btn-default" onclick="sendMail();">Enviar email</a>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!--=============== Footer ===============-->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-text padd-15">
+                    <p>&copy; Guilherme Reis Queiroz de Souza</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <!--=============== Theme Customize ===============-->
+    <div class="customize-theme">
+        <div class="card">
+            <h2>Customize sua experiência</h2>
+            <p>Gerencie o tamanho das fontes, cores principais e a cor do fundo!</p>
+            <!-- font size -->
+            <div class="font-size">
+                <h3>Tamanho da fonte</h3>
+                <div>
+                    <h6>Aa</h6>
+                    <div class="choose-size">
+                        <span class="font-size-1"></span>
+                        <span class="font-size-2"></span>
+                        <span class="font-size-3 active"></span>
+                        <span class="font-size-4"></span>
+                    </div>
+                    <h3>Aa</h3>
+                </div>
+            </div>
+            <!-- color -->
+            <div class="color">
+                <h3>Cor principal</h3>
+                <div class="choose-color">
+                    <span class="color-1"></span>
+                    <span class="color-2"></span>
+                    <span class="color-3"></span>
+                    <span class="color-4 active"></span>
+                    <span class="color-5"></span>
+                </div>
+            </div>
+            <!-- background -->
+            <div class="background">
+                <h3>Cor de fundo</h3>
+                <div class="choose-bg">
+                    <div class="bg-1">
+                        <span></span>
+                        <h5 for="bg-1">Claro</h5>
+                    </div>
+                    <div class="bg-2 active">
+                        <span></span>
+                        <h5 for="bg-2">Médio</h5>
+                    </div>
+                    <div class="bg-3">
+                        <span></span>
+                        <h5 for="bg-3">Escuro</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    
+    <!--=============== JS ===============-->
+    <script src="assets/js/main.js"></script>
+
+    <!--=============== Email JS ===============-->
+    <script>
+        
+        function sendMail(){
+            (function(){
+                emailjs.init("TfgUSgJTYtKAsZS08");
+
+            })();
+
+            var params = {
+                sendername: document.querySelector("#sendername").value,
+                subject: document.querySelector("#subject").value,
+                message: document.querySelector("#message").value
+            };
+
+            var serviceID = "service_xv2f97p";
+
+            var templateID = "template_37dj1sf";
+
+            emailjs.send(serviceID, templateID, params)
+            .then( res => {
+                alert("Email enviado com sucesso!");
+            })
+            .catch();
+        }
+
+    </script>
+
+
+</body>
+</html>
